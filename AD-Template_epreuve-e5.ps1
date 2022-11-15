@@ -38,7 +38,7 @@ New-ADUser `
 -SamAccountName "direction" `
 -UserPrincipalName "direction@olab.lan" `
 -Path $direction `
--AccountPassword (ConvertTo-SecureString -AsPlainText "Poupoug1234/" -Force) `
+-AccountPassword (ConvertTo-SecureString -AsPlainText "Formation2022" -Force) `
 -Verbose `
 -ChangePasswordAtLogon $false `
 -Enabled $true
@@ -49,7 +49,7 @@ New-ADUser `
 -SamAccountName "compta" `
 -UserPrincipalName "compta@olab.lan" `
 -Path $compta `
--AccountPassword (ConvertTo-SecureString -AsPlainText "Poupoug1234/" -Force) `
+-AccountPassword (ConvertTo-SecureString -AsPlainText "Formation2022" -Force) `
 -Verbose `
 -ChangePasswordAtLogon $false `
 -Enabled $true
@@ -60,7 +60,7 @@ New-ADUser `
 -SamAccountName "marketing" `
 -UserPrincipalName "marketing@olab.lan" `
 -Path $marketing `
--AccountPassword (ConvertTo-SecureString -AsPlainText "Poupoug1234/" -Force) `
+-AccountPassword (ConvertTo-SecureString -AsPlainText "Formation2022" -Force) `
 -Verbose `
 -ChangePasswordAtLogon $false `
 -Enabled $true
